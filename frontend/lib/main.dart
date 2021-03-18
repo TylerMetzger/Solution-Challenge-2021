@@ -19,7 +19,7 @@ class App extends StatelessWidget {
       builder: (context, snapshot) {
         // Check for errors
         if (snapshot.hasError) {
-          return Text("Something went Wrong");
+          return SomethingWentWrong();
         }
 
         // Once complete, show your application
@@ -28,7 +28,7 @@ class App extends StatelessWidget {
         }
 
         // Otherwise, show something whilst waiting for initialization to complete
-        return Text("Loading");
+        return Loading();
       },
     );
   }
@@ -142,5 +142,19 @@ class _MyHomePageState extends State<MyHomePage> {
         child: Icon(Icons.add),
       ), // This trailing comma makes auto-formatting nicer for build methods.
     );
+  }
+}
+
+class Loading extends StatelessWidget {
+  @override
+  Widget build(BuildContext context) {
+    return Text("Loading");
+  }
+}
+
+class SomethingWentWrong extends StatelessWidget {
+  @override
+  Widget build(BuildContext context) {
+    return Text("Something went wrong.");
   }
 }

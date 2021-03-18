@@ -1,0 +1,46 @@
+{
+  "project_info": {
+    "project_number": "477117386824",
+    "project_id": "solution-challenge-2021-82f27",
+    "storage_bucket": "solution-challenge-2021-82f27.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:477117386824:android:6572016aef83054ac4887d",
+        "android_client_info": {
+          "package_name": "com.example.frontend"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "477117386824-c3nq2gar1mu9gq1727it6h08ab8m3ag5.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBp_uhyHPpbAj1nu5zHau-oPrJshlVjxLk"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "477117386824-c3nq2gar1mu9gq1727it6h08ab8m3ag5.apps.googleusercontent.com",
+              "client_type": 3
+            },
+            {
+              "client_id": "477117386824-98ufisfqq57j8j8sk2pqio7t82ghd9ot.apps.googleusercontent.com",
+              "client_type": 2,
+              "ios_info": {
+                "bundle_id": "com.ufdsc.solutionchallenge"
+              }
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
